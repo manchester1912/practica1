@@ -1,0 +1,26 @@
+Taller Repaso lógica y funciones de orden superior
+Recuerden realizar estos ejercicios usando, foreach, map, filter, find, reduce, findIndex, some, sort
+Si el ejercicio no especifica donde mostrar el resultado es a decisión el alumno
+1- Mostrar el titulo de cada libro con un mensaje que invite a la lectura.
+2- Mostrar una mensaje en html, que contenga el titulo y el precio de cada libro
+3- Mostrarme en Consola los elementos que estan en Stock
+4- Mostrarme en consola Todos los libros que cuesten menos de 7,2 dólares
+5- Encuentre el primer libro que tenga una (rating) calificación de 4.4
+6- Mostrar todos los libros cada uno en un contenedor (div) mostrar el titulo , precio y precio con 15% de descuento. (Generar un nuevo arreglo que contenga para cada libro su precio con descuento)
+7- Mostrar en HTML en un contenedor (div) cada uno de libros, cada contenedor deberá mostrar el titulo original, el titulo deletreado(separado por comas), el titulo al revés(Escrito de su ultima letra a la primera), el titulo comenzando con una letra MAYUSCULA seguido de una minúscula y asi hasta terminar(ThE hObBiT). Para este ejercicio generar un nuevo arreglo que contenga para cada libro la información necesaria.
+8- Mostrar por consola la posición o índice de el libro con el titulo The Iliad.
+9- Verificar si existe algún libro con una calificación menor de 3.7 o una calificación menor a 4.1
+10- Ordenar los libros por su titulo alfabéticamente
+11- Ordenar los libros por su precio en las dos opciones posibles (ascendente, descendente)
+12- Generar un nuevo arreglo y agregar dos propiedades a cada libro,
+	sales: generar un numero random entre 1000 y 100000 y multiplicarlo por la propiedad rating (hace referencia a la cantidad de libros vendidos,  el resultado debe ser un numero ENTERO)
+	profit: multiplicar precio por la propiedad sales 
+13- Calcular el costo total de los libros en stock del array original (Si esta en stock acumular el valor de su propiedad price) (no usar foreach,map,filter,sort)
+14- Basado en el arreglo generado en el punto numero 12, responder las siguientes preguntas: (Con responder preguntar espero los cálculos en js que revelen la respuesta, NO HACERLO MANUALMENTE)
+	- Cual es el libro con mayor rating
+	- Cual es el libro con el titulo mas largo
+  	- Cual es el autor con el nombre mas corto
+	- Cual es el libro con mayor cantidad de ventas
+	- Cual es el libro con con el menor profit
+	- Cual es el libro en stock con el precio mas alto
+	- Cual es el libro SIN stock con el profit mas bajo
